@@ -13,6 +13,11 @@
       "type": "mini square hidetitle",
       "background": "portfolio.webp"
     },
+    "루나": {
+      "url": "https://luna.codes",
+      "type": "mini square hidetitle",
+      "background": "luna.webp"
+    },
     "Git.Gold": {
       "url": "https://git.gold"
     },
