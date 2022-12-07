@@ -1,0 +1,30 @@
+{
+  "profile": "logo.webp",
+  "background": "background.svg",
+  "theme": "default",
+  "primary": "#eb0f7f",
+  "icons": {
+    "home": "https://www.dimigo.hs.kr",
+    "instagram": "https://www.instagram.com/kdmhs/"
+  },
+  "links": {
+    "홈페이지": {
+      "url": "https://www.dimigo.hs.kr",
+      "background": "school.webp"
+    },
+    "세탁신청": {
+      "url": "https://washer.kimain.me",
+      "type": "mini square",
+      "background": "wash.webp"
+    },
+    "잔류신청": {
+      "url": "https://stay.kimain.me",
+      "type": "mini square",
+      "background": "stay.webp"
+    },
+    "베네듀": {
+      "url": "https://benedu.co.kr",
+      "background": "benedu.webp"
+    }
+  }
+}

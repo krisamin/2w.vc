@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html style="<% if(config.background) { %>background-image:url('<%= baseUrl %><%= config.background %>')<% } %>">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Title" content="<%= header.title %>">
+    <meta http-equiv="Subject" content="<%= header.des %>">
+
+    <meta name="twitter:title" content="<%= header.title %>">
+    <meta name="twitter:description" content="<%= header.des %>">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= header.title %>">
+    <meta property="og:description" content="<%= header.des %>">
+
+    <title><%= header.title %></title>
+    <meta name="description" content="<%= header.des %>">
+    <meta name="theme-color" content="<%= config.primary %>">
+
+    <style>      
+      :root {
+        --primary-color:<%= config.primary %>;
+      }
+    </style>
+
+    <script src="//cdn.2w.vc/Jquery/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="/@style.css">
+  </head>
+  <body>
+    <div id="profile" class="shadow" style="background-image:url('<%= baseUrl %><%= config.profile %>')"></div>
+    <div id="id" class="<% if(config.background) { %>shadow-text<% } %>">@<%= id %></div>
+    <div id="icons">
+      <% for(const [icon, link] of Object.entries(config.icons)) { %>
+        <a href="<%= link %>" target="_blank">
+          <span id="icon" style="mask:url(/dist/icon/<%= icon %>.svg); mask-size:cover; -webkit-mask:url(/dist/icon/<%= icon %>.svg); -webkit-mask-size:cover;"></span>
+        </a>
+      <% } %>
+    </div>
+    <div id="list">
+      <% for(const [title, data] of Object.entries(config.links)) { %>
+        <a href="<%= data.url %>" target="_blank" id="item" class="<%= data.type %> <% if(data.background) { %>background<% } %>" style="background-image:url('<%= baseUrl %><%= data.background %>')">
+          <span id="title"><%= title %></span>
+        </a>
+      <% } %>
+    </div>
+  </body>
+</html>
