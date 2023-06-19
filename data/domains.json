@@ -17,7 +17,7 @@
     "auth.2w.vc": "Auth Server",
     "mm.2w.vc": "Mattermost Server",
     "portainer.2w.vc": "Docker Management",
-    "anony.kr": "Anonymous Asking"
+    "anony": "Anonymous Asking"
   },
   "owned": [
     "isamin.kr",
