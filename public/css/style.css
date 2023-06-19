@@ -39,9 +39,6 @@ body {
     gap: 48px;
   }
 }
-#app #info {
-  gap: 6px;
-}
 #app #info #title {
   font-size: 52px;
   font-weight: 700;
