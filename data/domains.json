@@ -1,0 +1,36 @@
+{
+  "connected": {
+    "isamin.kr": "Portfolio",
+    "git.gold": "Gitlab Server",
+    "registry.git.gold": "Container Registry",
+    "디미고급식.com": "KDMHS Cafeteria",
+    "주소.빨리.닷컴": "Korean Link Shorter",
+    "luna.codes": "Luna Landing Page",
+    "morse.2w.vc": "Morse Code Translator",
+    "ip.2w.vc": "Check IP Address",
+    "rumor.2w.vc": "Rumor Checker",
+    "status.2w.vc": "Server Status",
+    "analytics.2w.vc": "Analytics Server",
+    "npm.2w.vc": "NPM Registry",
+    "bucket.2w.vc": "Object Storage",
+    "ds.2w.vc": "Synology NAS",
+    "auth.2w.vc": "Auth Server",
+    "mm.2w.vc": "Mattermost Server",
+    "portainer.2w.vc": "Docker Management",
+    "anony": "Anonymous Asking"
+  },
+  "owned": [
+    "isamin.kr",
+    "2w.vc",
+    "git.gold",
+    "preview.one",
+    "archive.codes",
+    "빨리.닷컴",
+    "디미고급식.com"
+  ],
+  "external": [
+    "luna.codes",
+    "anony.kr",
+    "dimigo.net"
+  ]
+}

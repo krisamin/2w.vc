@@ -1,25 +1,78 @@
-@import url('//cdn.2w.vc/Font/Pretendard/web/static/pretendard-subset.css');
-
+@import url("//fonts.2w.vc/suit/static/font.css");
 * {
-  margin:0; padding:0;
-  font-family:'Pretendard', 'sans-serif';
+  margin: 0;
+  padding: 0;
+  font-family: "SUIT", "sans-serif";
+  overflow: hidden;
 }
 
 html, body {
-  width:100%; height:100%;
-  background:#000;
-  color:#fff;
-  align-items:center;
-  justify-content:center;
+  width: 100%;
+  height: 100%;
+  background: #242424;
+  color: #ffffff;
+}
+
+div, a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
 }
 
 body {
-  display:flex;
-  flex-direction:column;
-
+  overflow-y: scroll;
 }
 
-#title {
-  font-size:20vw;
-  font-weight:900;
+#app {
+  padding: 64px;
+  gap: 64px;
 }
+#app #info {
+  gap: 6px;
+}
+#app #info #title {
+  font-size: 52px;
+  font-weight: 700;
+}
+#app #info #description {
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+#app #content {
+  gap: 64px;
+}
+#app #content #mix {
+  gap: 20px;
+}
+#app #content #mix #title {
+  font-size: 24px;
+  font-weight: 700;
+}
+#app #content #mix #list {
+  gap: 20px;
+}
+#app #content #mix #list #item {
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 0.5;
+  gap: 2px;
+}
+#app #content #mix #list #item #link {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+#app #content #copyright {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.25;
+}
+
+/*# sourceMappingURL=style.css.map */
