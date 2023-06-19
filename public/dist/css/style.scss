@@ -32,6 +32,11 @@ body {
   padding: 64px;
   gap: 64px;
 
+  @media (max-width: 580px) {
+    padding: 16px 24px;
+    gap: 48px;
+  }
+
   #info {
     gap: 6px;
   
@@ -49,6 +54,10 @@ body {
 
   #content {
     gap: 64px;
+
+    @media (max-width: 580px) {
+      gap: 48px;
+    }
 
     #mix {
       gap: 20px;

@@ -33,6 +33,12 @@ body {
   padding: 64px;
   gap: 64px;
 }
+@media (max-width: 580px) {
+  #app {
+    padding: 16px 24px;
+    gap: 48px;
+  }
+}
 #app #info {
   gap: 6px;
 }
@@ -47,6 +53,11 @@ body {
 }
 #app #content {
   gap: 64px;
+}
+@media (max-width: 580px) {
+  #app #content {
+    gap: 48px;
+  }
 }
 #app #content #mix {
   gap: 20px;
