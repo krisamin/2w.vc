@@ -32,5 +32,10 @@
     "luna.codes",
     "anony.kr",
     "dimigo.net"
-  ]
+  ],
+  "hardware": {
+    "BASE": "HP Z840 Workstation",
+    "CPU": "Intel Xeon E5-2699 v3 * 2",
+    "MEMORY": "16GB * 16 = 256GB"
+  }
 }

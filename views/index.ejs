@@ -43,6 +43,17 @@
             <% } %>
           </div>
         </div>
+        <div id="mix">
+          <p id="title">Hardware Info</p>
+          <div id="list">
+            <% for(const domain of Object.keys(domains.hardware)) { %>
+              <a id="item">
+                <p id="link"><%= domain %></p>
+                <p id="name"><%= domains.hardware[domain] %></p>
+              </a>
+            <% } %>
+          </div>
+        </div>
         <p id="copyright">ⓒ 2023 isamin.kr. All Rights Reserved.</p>
       </div>
     </div>
