@@ -16,8 +16,7 @@
     "ds.2w.vc": "Synology NAS",
     "auth.2w.vc": "Auth Server",
     "mm.2w.vc": "Mattermost Server",
-    "portainer.2w.vc": "Docker Management",
-    "anony.kr": "Anonymous Asking"
+    "portainer.2w.vc": "Docker Management"
   },
   "owned": [
     "isamin.kr",
