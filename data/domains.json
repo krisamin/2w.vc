@@ -3,7 +3,6 @@
     "isamin.kr": "Portfolio",
     "archive.codes": "Gitlab Server",
     "디미고급식.com": "KDMHS Cafeteria",
-    "주소.빨리.닷컴": "Korean Link Shorter",
     "luna.codes": "Luna Landing Page",
     "cresent.team": "Cresent Portfolio",
     "morse.2w.vc": "Morse Code Translator",
@@ -19,10 +18,8 @@
   "owned": [
     "isamin.kr",
     "2w.vc",
-    "git.gold",
-    "preview.one",
     "archive.codes",
-    "빨리.닷컴",
+    "preview.one",
     "디미고급식.com"
   ],
   "external": [
