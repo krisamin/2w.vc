@@ -3,7 +3,6 @@
     "isamin.kr": "Portfolio",
     "archive.codes": "GitLab Server",
     "디미고급식.com": "KDMHS Cafeteria",
-    "luna.codes": "Luna Landing Page",
     "ruku.team": "Ruku Portfolio",
     "cresent.team": "Cresent Portfolio",
     "morse.2w.vc": "Morse Code Translator",
@@ -20,12 +19,10 @@
     "isamin.kr",
     "2w.vc",
     "archive.codes",
-    "preview.one",
     "디미고급식.com",
     "mitjul.com"
   ],
   "external": [
-    "luna.codes",
     "ruku.team",
     "cresent.team"
   ],
