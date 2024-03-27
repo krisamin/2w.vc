@@ -1,16 +1,16 @@
 {
   "connected": {
-    "isamin.kr": "Portfolio",
+    "isamin.kr": "Landing",
+    "portfolio.isamin.kr": "Portfolio",
+    "blog.isamin.kr": "Blog",
     "archive.codes": "GitLab Server",
     "디미고급식.com": "KDMHS Cafeteria",
-    "ruku.team": "Ruku Portfolio",
-    "cresent.team": "Cresent Portfolio",
     "morse.2w.vc": "Morse Code Translator",
     "ip.2w.vc": "Check IP Address",
-    "rumor.2w.vc": "Rumor Checker",
     "status.2w.vc": "Server Status",
     "analytics.2w.vc": "Analytics Server",
     "npm.2w.vc": "NPM Registry",
+    "fonts.2w.vc": "Fonts",
     "bucket.2w.vc": "Object Storage",
     "ds.2w.vc": "Synology NAS",
     "mm.2w.vc": "Mattermost Server"
