@@ -12,7 +12,6 @@
     "npm.2w.vc": "NPM Registry",
     "fonts.2w.vc": "Fonts",
     "bucket.2w.vc": "Object Storage",
-    "ds.2w.vc": "Synology NAS",
-    "mm.2w.vc": "Mattermost Server"
+    "ds.2w.vc": "Synology NAS"
   }
 }
