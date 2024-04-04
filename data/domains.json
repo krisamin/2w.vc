@@ -14,21 +14,5 @@
     "bucket.2w.vc": "Object Storage",
     "ds.2w.vc": "Synology NAS",
     "mm.2w.vc": "Mattermost Server"
-  },
-  "owned": [
-    "isamin.kr",
-    "2w.vc",
-    "archive.codes",
-    "디미고급식.com",
-    "mitjul.com"
-  ],
-  "external": [
-    "ruku.team",
-    "cresent.team"
-  ],
-  "hardware": {
-    "BASE": "HP Z840 Workstation",
-    "CPU": "Intel Xeon E5-2699 v3 * 2",
-    "MEMORY": "16GB * 16 = 256GB"
   }
 }
