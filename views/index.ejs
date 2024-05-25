@@ -16,17 +16,19 @@
         <p id="description">noViceMin's Server</p>
       </div>
       <div id="content">
-        <div id="mix">
-          <p id="title">Connected</p>
-          <div id="list">
-            <% for(const domain of Object.keys(domains.connected)) { %>
-              <a id="item" href="https://<%= domain %>" target="_blank">
-                <p id="link"><%= domain %></p>
-                <p id="name"><%= domains.connected[domain] %></p>
-              </a>
-            <% } %>
+        <% for(const [key, data] of Object.entries(domains)) { %>
+          <div id="mix">
+            <p id="title"><%= key %></p>
+            <div id="list">
+              <% for(const [domain, name] of Object.entries(data)) { %>
+                <a id="item" href="https://<%= domain %>" target="_blank">
+                  <p id="link"><%= domain %></p>
+                  <p id="name"><%= name %></p>
+                </a>
+              <% } %>
+            </div>
           </div>
-        </div>
+        <% } %>
         <p id="copyright">ⓒ 2023 isamin.kr. All Rights Reserved.</p>
       </div>
     </div>

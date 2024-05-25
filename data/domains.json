@@ -1,17 +1,24 @@
 {
-  "connected": {
+  "Connected": {
     "isamin.kr": "Landing",
     "portfolio.isamin.kr": "Portfolio",
     "blog.isamin.kr": "Blog",
     "archive.codes": "GitLab Server",
     "디미고급식.com": "KDMHS Cafeteria",
-    "morse.2w.vc": "Morse Code Translator",
     "ip.2w.vc": "Check IP Address",
+    "morse.2w.vc": "Morse Code Translator",
+    "auth.2w.vc": "authentik",
     "status.2w.vc": "Server Status",
     "analytics.2w.vc": "Analytics Server",
     "npm.2w.vc": "NPM Registry",
     "fonts.2w.vc": "Fonts",
     "bucket.2w.vc": "Object Storage",
-    "ds.2w.vc": "Synology NAS"
+    "drive.2w.vc": "Nextcloud",
+    "photos.2w.vc": "immich",
+    "docs.2w.vc": "Paperless",
+    "wiki.2w.vc": "Outline",
+    "notes.2w.vc": "Standard Notes",
+    "tasks.2w.vc": "Vikunja",
+    "work.2w.vc": "Coder"
   }
 }
