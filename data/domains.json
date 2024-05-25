@@ -1,5 +1,5 @@
 {
-  "Service": {
+  "Services": {
     "isamin.kr": "Landing",
     "portfolio.isamin.kr": "Portfolio",
     "blog.isamin.kr": "Blog",
@@ -8,7 +8,7 @@
     "morse.2w.vc": "Morse Code Translator",
     "status.2w.vc": "Server Status"
   },
-  "On-premise": {
+  "On-premises": {
     "auth.2w.vc": "authentik",
     "drive.2w.vc": "Nextcloud",
     "photos.2w.vc": "immich",
