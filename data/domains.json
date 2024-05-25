@@ -16,9 +16,9 @@
     "notes.2w.vc": "Standard Notes",
     "wiki.2w.vc": "Outline",
     "tasks.2w.vc": "Vikunja",
+    "minio.2w.vc": "MinIO",
     "bucket.2w.vc": "Object Storage",
     "analytics.2w.vc": "Plausible",
-    "npm.2w.vc": "UNPKG",
     "work.2w.vc": "Coder",
     "archive.codes": "GitLab"
   }
