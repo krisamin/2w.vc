@@ -12,14 +12,13 @@
     "auth.2w.vc": "authentik",
     "drive.2w.vc": "Nextcloud",
     "photos.2w.vc": "immich",
+    "media.2w.vc": "Emby",
     "docs.2w.vc": "Paperless",
     "notes.2w.vc": "Standard Notes",
     "wiki.2w.vc": "Outline",
-    "tasks.2w.vc": "Vikunja",
     "minio.2w.vc": "MinIO",
     "bucket.2w.vc": "Object Storage",
     "analytics.2w.vc": "Plausible",
-    "work.2w.vc": "Coder",
     "archive.codes": "GitLab"
   }
 }
