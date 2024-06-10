@@ -2,7 +2,6 @@
   "Services": {
     "isamin.kr": "Landing",
     "portfolio.isamin.kr": "Portfolio",
-    "blog.isamin.kr": "Blog",
     "디미고급식.com": "Dimigo Meal",
     "ip.2w.vc": "Check IP Address",
     "morse.2w.vc": "Morse Code Translator",
@@ -16,9 +15,12 @@
     "docs.2w.vc": "Paperless",
     "notes.2w.vc": "Standard Notes",
     "wiki.2w.vc": "Outline",
+    "design.2w.vc": "Penpot",
+    "bookmark.2w.vc": "linkding",
     "minio.2w.vc": "MinIO",
     "bucket.2w.vc": "Object Storage",
     "analytics.2w.vc": "Plausible",
+    "stat.2w.vc": "Matomo",
     "archive.codes": "GitLab"
   }
 }
